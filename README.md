@@ -10,7 +10,9 @@ Before you begin: If you use your PC for video games, I would not recommend doin
 The script can be stored anywhere. I prefer to store them in a /home/user/AI/scripts directory. Name it "KoboldService.sh" It should look like this:
 _______________________________________
 #!/bin/bash
+
 cd /path/to/your/AI/Directory/KoboldAI-Client
+
 ./play.sh --model PygmalionAI_pygmalion-6b
 _______________________________________
 
@@ -20,7 +22,9 @@ Note: You need to replace the path with the one that leads to your KoboldAI inst
 The script shall be named "MikuService.sh"
 _______________________________________
 #!/bin/bash
+
 cd /path/to/your/AI/Directory/miku
+
 sudo pnpm start
 _______________________________________
 
