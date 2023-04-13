@@ -41,10 +41,12 @@ $sudo vim kobold.service # <--- This will create the file
 Now fill the file with the following:
 ____________________________________
 [Unit]
+
 Description=KoboldAI-Client
 
 
 [Service]
+
 User=YOUR_USER_NAME
 
 WorkingDirectory=/path/to/the/folder/you/stored/your/script
@@ -59,6 +61,7 @@ Restart=always
 
 
 [Install]
+
 WantedBy=multi-user.target
 _________________________________ 
 Note: The time it takes for your machine to startup KoboldAI and load a model will vary. If you are on a slower machine, perhaps try playing with the "StartLimitBurst" and "StartLimitInterval" parameters.
