@@ -98,7 +98,7 @@ Choose your waifu, or make one. Select their name to load them.
 Copy the URL once your waifu loads. (e.g. http://localhost:5173/?bot=BmdnfP3hC7ZCcYnAduE7FYkZsotC2zNGyGNPjBNHt7MpmH)  
   
 **Step 8: Use nativefier to wrap that URL into an executable application. Use the command below:**  
-$nativefier 'https://localhost:5173/?bot=YOUR_BOT_ID' -p linux -a arch -n YOUR_BOT_NAME --disable-gpu  
+$nativefier 'https://localhost:5173/?bot=YOUR_BOT_ID' -p linux -a x64 -n YOUR_BOT_NAME --disable-gpu  
   
 *Note: The flags I set in the command above are what worked for me on my system. You may not need to use the flags, or you may need to use different ones. Running "$nativefier --help" will guide you in this process.*   
   
