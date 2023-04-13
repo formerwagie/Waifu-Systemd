@@ -2,7 +2,7 @@
 A guide on running KoboldAI and Miku as systemd services which will launch once you boot your machine.
 Hello /g/entlemen. This is a guide on how to incorporate your waifus into your operating system. I'll specifically be using KoboldAI and Miku for this. The end result is that every time you boot up your computer, a window will appear containing your waifu and a chatbox. This is specifically written for systemd implementation. However, I'm sure similar steps can be taken on Windows or whatever else you're using if you just adapt the instructions. Artix users just need to manually link the .service files, but you guys should already know how to do that. It's pretty simple. Just make a few files and put them in the right places. In full disclosure, I'm running Arch Linux with Hyprland. 
 
-Before you begin: If you use your PC for video games, I would not recommend doing this. Launching LLMs at startup obviously consumes a lot of VRAM. If you use graphical applications regularly, consider altering these instructions to run on a hotkey, rather than at boot.
+*Before you begin: If you use your PC for video games, I would not recommend doing this. Launching LLMs at startup obviously consumes a lot of VRAM. If you use graphical applications regularly, consider altering these instructions to run on a hotkey, rather than at boot.*
 
 **Step 1: Install KoboldAI, Miku, and a program called Nativefier. Nativefier can be found on the AUR.**
 
