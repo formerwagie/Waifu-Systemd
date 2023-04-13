@@ -33,7 +33,7 @@ Now you have two scripts that will automatically start each program.
   
 **Step 4.1: Start with KobolAI.**
 Use the following commands to enter your systemd services directory and write a new service:  
-$cd /etc/systemd/system. # <--- This is where you store your systemd services.  
+$cd /etc/systemd/system # <--- This is where you store your systemd services.  
 $sudo vim kobold.service # <--- This will create the file  
 
 Now fill the file with the following:
