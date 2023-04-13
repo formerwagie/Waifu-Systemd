@@ -43,13 +43,20 @@ ____________________________________
 [Unit]
 Description=KoboldAI-Client
 
+
 [Service]
 User=YOUR_USER_NAME
+
 WorkingDirectory=/path/to/the/folder/you/stored/your/script
+
 ExecStart=/path/to/the/folder/you/stored/your/script/KoboldService.sh
+
 StartLimitBurst=100
+
 StartLimitInterval=3
+
 Restart=always
+
 
 [Install]
 WantedBy=multi-user.target
@@ -64,18 +71,29 @@ $sudo vim miku.service
 Fill the file with the following:
 _________________________________
 [Unit]
+
 Description=Miku.GG
 
+
 [Service]
+
 User=YOUR_USER_NAME
+
 WorkingDirectory=/path/to/the/folder/you/stored/your/script
+
 ExecStart=/path/to/the/folder/you/stored/your/script/MikuService.sh
+
 StartLimitBurst=100
+
 StartLimitInterval=3
+
 Restart=always
 
+
 [Install]
+
 WantedBy=multi-user.target
+
 _____________________________
 
 Step 5: Test the services
