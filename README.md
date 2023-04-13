@@ -77,7 +77,7 @@ Restart=always
 WantedBy=multi-user.target  
 _____________________________
 
-**Step 5: Test the services**
+**Step 5: Test the services**  
 You should now have the two .service files in your /etc/systemd/system directory. Test them by running the following:  
 $systemctl start kobold.service  
 $systemctl status kobold.service  
@@ -102,7 +102,7 @@ $nativefier 'https://localhost:5173/?bot=YOUR_BOT_ID' -p linux -a arch -n YOUR_B
   
 *Note: The flags I set in the command above are what worked for me on my system. You may not need to use the flags, or you may need to use different ones. Running "$nativefier --help" will guide you in this process.*   
   
-Once Nativefier completes it's operation, it should have created a folder containing the application. You should move that somewhere safe!  
+Once Nativefier completes its operation, it should have created a folder containing the application. You should move that somewhere safe!  
   
 **Step 9: Tell your DE to run your Nativefier application at startup.**  
 I cannot help you with this because it's a wildly different process from DE to DE.  
