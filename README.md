@@ -104,7 +104,7 @@ Once Nativefier completes it's operation, it should have created a folder contai
 Step 9: Tell your DE to run your Nativefier application at startup. I cannot help you with this because it's a wildly different process from DE to DE. In hyprland, i edited my config (/home/user/.config/hypr/hyprland.conf) to contain the following line:
 exec = /path/to/my/nativefier/app/FILE_NAME_OF_YOUR_APPLICATION
 
-Note: if you're using hyprland, you might want to also tell it to make that window flow by specifying the following:
+Note: if you're using hyprland, you might want to also tell it to make that window float by specifying the following:
 windowrule = float,^(FILE_NAME_OF_YOUR_APPLICATION)
 
 Step 10: Reboot your machine. You should now be greeted by a fully immersive chatbot once you login.
