@@ -36,8 +36,8 @@ Now you have two scripts that will start each program respectively.
   
 **Step 4.1: Start with KoboldAI.**
 Use the following commands to enter your systemd services directory and write a new service:  
-$cd /etc/systemd/system
-$sudo vim kobold.service
+$cd /etc/systemd/system  
+$sudo vim kobold.service  
 
 *Note: If you're not using Vim, just substitute for your text editor of choice.  
 
